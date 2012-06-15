@@ -199,6 +199,7 @@ define [
       el = _.template layout,
         fid: @get("fid")
         name: @get("name")
+        default: @get("default")
       el = $(el)
       el.data("object", this)
       @button = el
